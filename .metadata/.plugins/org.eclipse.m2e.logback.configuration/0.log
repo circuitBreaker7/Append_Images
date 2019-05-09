@@ -1,0 +1,191 @@
+2019-03-09 21:57:06,062 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-09 21:58:13,580 [Worker-9: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mycompany:Multiplex_Pixel_Colocalization:0.1.0-SNAPSHOT @ /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/pom.xml.
+2019-03-09 21:58:15,048 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not find net.imagej:ij:jar:1.51h:compile at null
+2019-03-09 21:58:15,983 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mycompany:Multiplex_Pixel_Colocalization:0.1.0-SNAPSHOT @ /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/pom.xml.
+2019-03-09 21:58:16,582 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-09 21:58:16,583 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-09 21:58:16,613 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552197496549
+2019-03-09 21:58:16,659 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-09 21:58:16,833 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:58:16,838 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-09 21:58:16,992 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:58:16,992 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-09 21:58:17,484 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-03-09 21:58:19,994 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-09 21:58:19,994 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-09 21:58:20,031 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552197499954
+2019-03-09 21:58:20,059 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-09 21:58:20,245 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:58:20,251 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-09 21:58:20,387 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:58:20,387 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-09 21:58:20,769 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-03-09 21:58:32,462 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-09 21:58:32,463 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-09 21:58:32,482 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552197512462
+2019-03-09 21:58:32,502 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-09 21:58:32,507 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:58:32,508 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-09 21:58:32,512 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:58:32,512 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-09 21:59:00,059 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-09 21:59:00,060 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-09 21:59:00,086 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552197540059
+2019-03-09 21:59:00,112 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-09 21:59:00,115 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:59:00,115 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-09 21:59:00,119 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-09 21:59:00,119 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-09 21:59:00,127 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-03-10 20:29:46,185 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-10 20:29:46,186 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-10 20:29:46,259 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552274986181
+2019-03-10 20:29:46,278 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-10 20:29:46,283 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:29:46,285 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-10 20:29:46,289 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:29:46,289 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-10 20:29:46,304 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-03-10 20:41:13,661 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-10 20:41:13,661 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-10 20:41:13,683 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552275673660
+2019-03-10 20:41:13,703 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-10 20:41:13,706 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:41:13,707 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-10 20:41:13,710 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:41:13,710 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-10 20:41:13,717 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-03-10 20:46:10,834 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-10 20:46:10,835 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-10 20:46:10,858 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552275970834
+2019-03-10 20:46:10,882 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-10 20:46:10,885 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:46:10,885 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-10 20:46:10,889 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:46:10,889 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-10 20:46:10,896 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-03-10 20:49:17,422 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-03-10 20:49:17,423 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-03-10 20:49:17,445 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 80fbbcc3996d2fe3a634bd14301370a5cd14c14a at timestamp: 1552276157422
+2019-03-10 20:49:17,466 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-03-10 20:49:17,469 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:49:17,470 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-10 20:49:17,473 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-10 20:49:17,473 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-03-10 20:49:17,481 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-04-10 12:52:28,942 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-04-10 12:52:28,945 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-04-10 12:52:28,977 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 9c9c6caae1d5ad5afc98957b186a21b7c291bd76 at timestamp: 1554925948936
+2019-04-10 12:52:29,001 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: handle_as_stacks
+2019-04-10 12:52:29,005 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 12:52:29,007 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-10 12:52:29,013 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 12:52:29,013 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-04-10 12:52:29,031 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-04-10 12:52:30,289 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-04-10 12:52:30,289 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-04-10 12:52:30,310 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 9c9c6caae1d5ad5afc98957b186a21b7c291bd76 at timestamp: 1554925950289
+2019-04-10 12:52:30,338 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: handle_as_stacks
+2019-04-10 12:52:30,341 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 12:52:30,342 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-10 12:52:30,345 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 12:52:30,345 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-04-10 12:52:30,353 [Worker-1442: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-04-10 12:53:39,395 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-04-10 12:53:39,395 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-04-10 12:53:39,414 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 9c9c6caae1d5ad5afc98957b186a21b7c291bd76 at timestamp: 1554926019395
+2019-04-10 12:53:39,435 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: handle_as_stacks
+2019-04-10 12:53:39,437 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 12:53:39,438 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-10 12:53:39,441 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 12:53:39,441 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-04-10 12:53:39,447 [Worker-1438: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-04-10 14:42:48,177 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-04-10 14:42:48,177 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-04-10 14:42:48,196 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 55dafd7e1a057629f8de8c69bc4168caa6d8bd2f at timestamp: 1554932568176
+2019-04-10 14:42:48,213 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: handle_as_stacks
+2019-04-10 14:42:48,214 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 14:42:48,215 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-10 14:42:48,217 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 14:42:48,217 [Worker-1446: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-04-10 14:54:28,047 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-04-10 14:54:28,047 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-04-10 14:54:28,065 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 55dafd7e1a057629f8de8c69bc4168caa6d8bd2f at timestamp: 1554933268047
+2019-04-10 14:54:28,079 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: handle_as_stacks
+2019-04-10 14:54:28,081 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 14:54:28,081 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-10 14:54:28,084 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-10 14:54:28,084 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-04-10 14:54:28,090 [Worker-1451: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-04-11 21:23:43,718 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-04-11 21:23:43,720 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-04-11 21:23:43,761 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 55dafd7e1a057629f8de8c69bc4168caa6d8bd2f at timestamp: 1555043023717
+2019-04-11 21:23:43,780 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: handle_as_stacks
+2019-04-11 21:23:43,786 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 21:23:43,787 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-11 21:23:43,792 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-11 21:23:43,792 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-04-11 21:23:43,811 [Worker-1453: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-05-04 15:04:02,971 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-05-04 15:04:02,973 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-05-04 15:04:03,002 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 1c46a558b91b9e0fc335bd2a98bbbd9263644e45 at timestamp: 1557007442969
+2019-05-04 15:04:03,029 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-05-04 15:04:03,038 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-04 15:04:03,039 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-04 15:04:03,044 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-04 15:04:03,045 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-05-04 15:04:03,062 [Worker-2173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
+2019-05-04 15:04:40,086 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-05-04 15:04:40,086 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-05-04 15:04:40,100 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 1c46a558b91b9e0fc335bd2a98bbbd9263644e45 at timestamp: 1557007480086
+2019-05-04 15:04:40,113 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-05-04 15:04:40,115 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-04 15:04:40,115 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-04 15:04:40,117 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-04 15:04:40,117 [Worker-2172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-05-04 15:06:05,656 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-05-08 22:25:17,771 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-05-08 22:28:16,461 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-05-08 22:28:16,463 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-05-08 22:28:16,493 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 1c46a558b91b9e0fc335bd2a98bbbd9263644e45 at timestamp: 1557379696461
+2019-05-08 22:28:16,514 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-05-08 22:28:16,519 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-08 22:28:16,525 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-08 22:28:16,532 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-08 22:28:16,532 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-05-08 22:30:20,234 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-05-08 22:30:25,567 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-05-08 22:30:25,581 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-05-08 22:30:25,621 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 1c46a558b91b9e0fc335bd2a98bbbd9263644e45 at timestamp: 1557379825497
+2019-05-08 22:30:25,651 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-05-08 22:30:25,896 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-08 22:30:25,906 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-08 22:30:26,182 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-08 22:30:26,182 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-05-08 22:35:21,205 [Worker-8: Periodic workspace save.] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/axthelm/Documents/Development Stuff/Append_Images/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:926) ~[na:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator$2.saving(MavenPluginActivator.java:150) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1172) ~[na:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1151) ~[na:na]
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-05-08 22:41:31,638 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-08 22:41:37,810 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing: /bin/sh -c cd '/Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization' && 'git' 'rev-parse' '--verify' 'HEAD'
+2019-05-08 22:41:37,835 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Working directory: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization
+2019-05-08 22:41:37,881 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildNumber: 1c46a558b91b9e0fc335bd2a98bbbd9263644e45 at timestamp: 1557380497756
+2019-05-08 22:41:37,932 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Storing buildScmBranch: ROI_PROCESS_ONLY
+2019-05-08 22:41:38,164 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-08 22:41:38,178 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-08 22:41:38,532 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-08 22:41:38,532 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/src/test/resources
+2019-05-08 22:41:39,131 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Building jar: /Users/axthelm/Documents/Development Stuff/Multiplex_Pixel_Colocalization/target/Multiplex_Pixel_Colocalization-0.1.0-SNAPSHOT.jar
