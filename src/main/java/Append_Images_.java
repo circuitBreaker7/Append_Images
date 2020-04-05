@@ -13,22 +13,14 @@ import java.lang.reflect.Array;
 public class Append_Images_ implements PlugIn 
 {
   static String title = "Append Images";
-  static final int validChannelMinCount = 1;
-  static final int validChannelMaxCount = 8;
-  static final String POSITIVE = "(+)";
-  static final String NEGATIVE = "(-)";
 
   int stampCount = 0; /* Number of Image Stacks to import and analyze*/
-  String[] imageTitles = null;
   ImagePlus[] inputImages = null; 
   ImagePlus outputImage;
-  double[] channelThresholds = null;
-  int comboOptions = 0;
-  int[][] colocalizationCounts = null; //count by picture/stack
   int maxHeight = 0, sliceCount = 0, newWidth = 0, channelCount=0;
   int[] widths = null;
   int[] heights = null;
-  String outputfilepath = "C:\\Users\\Isaac\\Desktop\\";
+  String outputfilepath = "/Users/axthelm/"; //default and replaceable later in program
   String outputfilename = "";
 
   public void run(String arg) 
@@ -48,12 +40,11 @@ public class Append_Images_ implements PlugIn
 
     /* Set up arrays based on channels selected by user*/
     inputImages = new ImagePlus[stampCount];
-    channelThresholds = new double[stampCount];
     widths = new int[stampCount];
     heights = new int[stampCount];
 
     /* Get Input Images, Check Sizes, Apply ROI Masks*/
-    if (!getStampsPostRoiMask()) 
+    if (!getUserStamps()) 
     {
       IJ.showMessage(title, "Error Getting Images");
       return; 
@@ -72,7 +63,90 @@ public class Append_Images_ implements PlugIn
     }
     
     combineImages();
-    IJ.showMessage(title, "Analysis Successful! Congrats! And best of luck saving the world :)");
+    IJ.showMessage(title, "Images Combined Successfully");
+  }
+ 
+
+
+  /* 
+   * Return: # of Image Stamps to append, 0 on ERR or Exit
+   * */
+  private int returnStampCount()
+  {
+    double count = 0; 
+    PrintWriter pw = null;
+
+    while(pw == null) 
+    {
+      GenericDialog gd = new GenericDialog(title);
+      gd.addMessage("This is the number of stack you would want to append.");
+      gd.addNumericField("Image Stamp Count (whole number greater than zero):", 2, 0);
+      gd.addStringField("Output Filepath", outputfilepath,30);
+      gd.addStringField("Output Filename", outputfilename,30);
+      gd.addMessage("Please ensure all relevant images are loaded at this time.");
+      gd.setCancelLabel("Exit");
+      gd.showDialog();
+      if (gd.wasCanceled()) 
+      {
+        return (int)0;
+      }
+      count = gd.getNextNumber();
+      outputfilepath = gd.getNextString();
+      outputfilename = gd.getNextString() + "_appeneded";
+ 
+      if ((Double.isNaN(count)) || 
+          (count < 0) ||
+          (count != Math.ceil(count)))
+      {
+        IJ.showMessage(title, "ERR: Please enter a valid integer above zero.");
+        return (int)0;
+      }
+      
+      if (outputfilepath.substring(outputfilepath.length() - 1) != "/")
+      {
+        outputfilepath = outputfilepath + "/";
+      }
+     
+    	 
+      try 
+      {
+        pw = new PrintWriter(new File(outputfilepath + outputfilename));
+      } 
+      catch (FileNotFoundException e) 
+      {
+        IJ.showMessage(title, "ERR: Filepath does not exist. Please try again.");
+        pw = null;
+      }
+    }
+    pw.close();
+    return (int)count;
+  }
+
+  /*
+   * This will get the stamps the user provided and verify there are the correct count
+   * */
+  
+  private boolean getUserStamps()
+  {
+    if (Array.getLength(inputImages) != stampCount)
+    {
+      IJ.showMessage(title, "ERR: Setup Failure. Image array length not equal to stampCount requested");
+    }
+    
+    for (int i=0; i < stampCount; i++)
+    {
+      if(!getNextStamp(i))
+      {
+        IJ.showMessage(title, "ERR: Unknown Error Getting Input Image");
+        return false;
+      }
+      if(!checkImageData(i))
+      {
+        IJ.showMessage(title, "ERR with Image Data, Exiting");
+        return false;
+      }
+    }
+    return true;
   }
   
   /*
@@ -95,92 +169,16 @@ public class Append_Images_ implements PlugIn
     return titles;
   }
 
-
-  /* 
-   * Return: # of Image Stamps to analyze, 0 on ERR or Exit
-   * */
-  private int returnStampCount()
-  {
-    double count = 0; 
-    PrintWriter pw = null;
-
-    while(pw == null) 
-    {
-      GenericDialog gd = new GenericDialog(title);
-      gd.addMessage("This is the number of stack you would want to append.");
-      gd.addNumericField("Image Stamp Count (whole number greater than zero):", 2, 0);
-      gd.addStringField("Output Filepath", outputfilepath);
-      gd.addStringField("Output Filename", outputfilename);
-      gd.setCancelLabel("Exit");
-      gd.showDialog();
-      if (gd.wasCanceled()) 
-      {
-        return (int)0;
-      }
-      count = gd.getNextNumber();
-      outputfilepath = gd.getNextString();
-      outputfilename = gd.getNextString() + "_appeneded";
- 
-      if ((Double.isNaN(count)) || 
-          (count < 0) ||
-          (count != Math.ceil(count)))
-      {
-        IJ.showMessage(title, "ERR: Please enter a valid integer above zero:" + Integer.toString(validChannelMinCount) 
-        + " and " + Integer.toString(validChannelMaxCount));
-        return (int)0;
-      }
-      
-      try 
-      {
-        pw = new PrintWriter(new File(outputfilepath + outputfilename));
-      } 
-      catch (FileNotFoundException e) 
-      {
-        IJ.showMessage(title, "ERR: Filepath does not exist. Please try again.");
-        pw = null;
-      }
-    }
-    pw.close();
-    return (int)count;
-  }
-
   /*
-   * This will get the list of relevant channel names from the user
-   * and validate they are the same size, before returning true or false
-   * based on success or failure
-   * Count: number of input images the user selected.
+   * Let's the user select the next stamp and threshold value if they want
    * */
-  
-  private boolean getStampsPostRoiMask()
-  {
-    if (Array.getLength(inputImages) != stampCount)
-    {
-      IJ.showMessage(title, "ERR: Setup Failure. Image array length not equal to stampCount requested");
-    }
-    
-    for (int i=0; i < stampCount; i++)
-    {
-      if(!getNextStamp(i))
-      {
-        IJ.showMessage(title, "ERR: Unknown Error Getting Input Image");
-        return false;
-      }
-      if(!checkImageData(i))
-      {
-        IJ.showMessage(title, "ERR with Image Data, Exiting");
-        return false;
-      }
-    }
-    return true;
-  }
-
   private boolean getNextStamp(int stampnumber)
   {
     /* Get the number of channels to analyze, and error check the input */
     int [] openWindowList = WindowManager.getIDList();
     if (openWindowList == null)
     {
-      IJ.showMessage(title, "ERR: Please open images you would like to analyze.");
+      IJ.showMessage(title, "ERR: Please open images you would like to analyze and click okay.");
     }
     openWindowList = WindowManager.getIDList();
     if (openWindowList == null)
@@ -192,14 +190,12 @@ public class Append_Images_ implements PlugIn
     GenericDialog gd = new GenericDialog(title);
     String option = "Channel: ";
     gd.addChoice(option, imagetitleoptions, imagetitleoptions[0]);
-    gd.addNumericField("Channel Threshold Value (0-255):", 50, 1);
     gd.showDialog();
     if (gd.wasCanceled()) 
     {
       return false;
     }
     int imageIndex = gd.getNextChoiceIndex();
-    channelThresholds[stampnumber] = gd.getNextNumber();
     inputImages[stampnumber] = WindowManager.getImage(openWindowList[imageIndex]);
     if (inputImages[stampnumber] == null)
     {
